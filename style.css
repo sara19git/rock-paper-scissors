@@ -53,6 +53,25 @@ h1{
     font-size: 1.3em;
     font-weight: 600;
 }
+.result-images {
+    display: flex;
+    column-gap: 5rem;
+}
+.result-images img{
+    width: 60px;
+}
+.user-result img{
+    transform: rotate(90deg);
+}
+.computer-result img{
+    transform: rotate(-90deg) rotateY(180deg);
+}
+#options-container h2{
+    font-size: 2em;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}
 .btn{
     padding: 5px 30px;
     margin-bottom: 20px;
