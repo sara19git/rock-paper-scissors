@@ -53,47 +53,6 @@ h1{
     font-size: 1.3em;
     font-weight: 600;
 }
-.result-images {
-    display: flex;
-    column-gap: 5rem;
-}
-.result-images img{
-    width: 60px;
-}
-.user-result img{
-    transform: rotate(90deg);
-}
-.computer-result img{
-    transform: rotate(-90deg) rotateY(180deg);
-}
-#options-container h2{
-    font-size: 2em;
-    font-weight: 600;
-    padding: 10px;
-    text-align: center;
-}
-.option-images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    
-}
-.option-image {
-    opacity: 0.5;
-    transition: opacity 0.3s ease;
-}
-
-.option-image img{
-    width: 40px;
-    pointer-events: none;
-}
-.option-image:hover{
-    opacity: 1;
-}
-.option-image.active{
-    opacity: 1;
-}
 .btn{
     padding: 5px 30px;
     margin-bottom: 20px;
